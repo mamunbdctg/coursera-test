@@ -1,0 +1,13 @@
+*{
+    color: black;
+}
+.navbar-brand{
+    font-size: 50px;
+    color: black;
+}
+
+
+.navbar-light .navbar-toggler , .navbar-light .navbar-toggler.collapsed{
+    border: 3px solid black;
+}
+
