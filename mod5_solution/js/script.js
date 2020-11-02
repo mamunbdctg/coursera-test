@@ -116,7 +116,7 @@ var buildAndShowHomeHTML = function (categories) {
       // it into the home html snippet.
       //
        var homeHtmlToInsertIntoMainPage = $dc.loadMenuItems(chosenCategoryShortName["short_name"]);
-       debugger
+
 
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
@@ -151,7 +151,7 @@ dc.loadMenuCategories = function () {
 // Load the menu items view
 // 'categoryShort' is a short_name for a category
 dc.loadMenuItems = function (categoryShort) {
-  debugger
+
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     menuItemsUrl + categoryShort,
